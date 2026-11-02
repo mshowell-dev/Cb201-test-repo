@@ -1,29 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 500px;
+}
+
 h1 {
-  color: green;
-  font-family: "Moo Lah Lah", sans-serif;
-  font-size: 72px;
+  color: white;
+  font-weight: bold;
+  font-family: "Playwrite AR Guides", sans-serif;
   text-align: center;
-  text-transform: uppercase;
-
-}
-h2 {
-  color: black;
-  font-family: "Moo Lah Lah", sans-serif;
-  font-size: 48px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.7;
-}
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-a {
-  color: green;
+  border: 5px solid black;
+  background-image: url("smiley face background.jpg");
+  background-size: cover;
+  background-position: center;
   text-decoration: none;
+
+}
+
+.game-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  width: auto;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e8e8e8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  color: #222;
+  cursor: pointer;
+  font: inherit;
+}
+
+.btn-primary {
+  background-color: #2878d0;
+  color: white;
 }
